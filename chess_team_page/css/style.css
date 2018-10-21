@@ -1,0 +1,140 @@
+/* My CSS style */
+
+/* All Forms */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	/*removes all browser defaults with margins, paddings and borders*/
+}
+
+html {
+	overflow:hidden;
+}
+
+body {
+	background-color: rgb(128, 128, 128);
+}
+
+h1 {
+	text-align: center;
+	padding: auto;
+	margin: auto;
+	
+}
+
+/* Header */
+header {
+	background-color: rgb(166,189,219);
+	height: 90px;
+	width: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+header img {
+	width: 90px;
+	height: 90px;
+	vertical-align: middle;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+header h1 {
+	font-family: "times new roman", "monospace", "serif";
+	text-align: center;
+	text-transform: capitalize;
+	margin: 20px 0px;
+}
+
+/* Section */
+section {
+	background-color: rgb(150, 150, 150);
+	height: 85%;
+	width: 100%;
+	position: absolute;
+	top: 90px;
+	left: 0%;
+}
+
+#left-toolbar {
+	background-color: rgb(208,209,230);
+	height: 100%;
+	width: 10%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	overflow: auto;
+}
+
+#chessboard {
+	background-color: rgb(210, 210, 245);
+	height: 100%;
+	width: 80%;
+	position: absolute;
+	top: 0%;
+	left: 10%;
+	overflow: auto;
+}
+
+#board {
+	width: 50%; 
+	margin: auto; 
+	padding-top: 10px;
+}
+
+#chess-button-bar {
+	position: absolute;
+	top: 94%;
+	left: 25%;
+}
+
+#chess-button-list {
+	list-style-type: none;
+}
+
+#chess-button-list li {
+	display: inline;
+}
+
+.chessButt {
+	background-color: rgb(200, 128, 128);
+}
+
+.chessButt:hover {
+	background-color: rgb(128, 200, 128);
+}
+
+#right-toolbar {
+	background-color: rgb(208,209,230);
+	height: 100%;
+	width: 10%;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	overflow: auto;
+}
+
+#detail-container {
+	font-family: Arial;
+	background-color: rgb(180, 180, 180);
+	height: 30%;
+	width: 100%;
+	position: absolute;
+	top: 0%;
+	overflow: auto;
+}
+
+/* Footer */
+footer {
+	background-color: rgb(166,189,219);
+	height: 64px;
+	width: 100%;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
+

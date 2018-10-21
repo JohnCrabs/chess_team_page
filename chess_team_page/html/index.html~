@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<!--Comment-->
+
+<html lang="gr">
+	<head>
+		<title>Σκακιστικός Όμιλος Παραδείσου Αμαρουσίου</title>
+		<meta charset="UTF-8"></meta>
+		<link rel = "stylesheet" type = "text/css" href = "../css/style.css">
+		
+		//chesboard.js library
+		<link rel="stylesheet" href="../js/chessboard/css/chessboard-0.3.0.css">
+    	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    	<script src="../js/chessboard/js/chessboard-0.3.0.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<span><h1>Σκακιστικός Όμιλος Παραδείσου Αμαρουσίου</h1></span>
+			<span><img src="../img/logo_omiloy.png"></span>
+		</header>
+		
+		<section>
+			<div id="left-toolbar">Λίστα με Ονόματα</div>
+			
+			<div id="right-toolbar">Λίστα με Κατηγορίες Υλικού και Υλικό</div>	
+			
+			<div id = "chessboard">
+				<div id="board"></div>
+				
+				<div id="chess-button-bar">
+					<ul id = "chess-button-list">
+						<li><button class = "chessButt" id =  "playBtn"><img src = "../img/chessboard_commands/back.png" alt = "Back" width = "32px" height = "32px"    ></button></li>
+						<li><button class = "chessButt" id = "startBtn"><img src = "../img/chessboard_commands/restart.png" alt = "Restart" width = "32px" height="32px"></button></li> 
+						<li><button class = "chessButt" id =  "playBtn"><img src = "../img/chessboard_commands/play.png" alt = "Play" width = "32px" height = "32px"    ></button></li>
+						<li><button class = "chessButt" id =  "playBtn"><img src = "../img/chessboard_commands/front.png" alt = "Front" width = "32px" height = "32px"    ></button></li>
+					</ul>				
+				</div>
+				<script type = "text/javascript" src="../js/index.js"> </script>		
+			</div>
+		</section>
+		
+		<footer>
+			<h1>Σχετικές Πληροφορίες</h1>
+		</footer>
+	</body>
+
+
+
+</html>
